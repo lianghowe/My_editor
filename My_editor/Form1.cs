@@ -40,6 +40,7 @@ namespace My_editor
 
                 //加载文件
                 richTextBox1.LoadFile(filename, RichTextBoxStreamType.PlainText);
+                // 路径只剩文件名
                 this.Text = filename.Substring(filename.LastIndexOf("\\") + 1) + " - My_editor";
             }
         }
@@ -63,6 +64,7 @@ namespace My_editor
             {
 
                 filename = saveFileDialog1.FileName;
+                // 路径只剩文件名
                 filename = filename.Substring(filename.LastIndexOf("\\") + 1);
                 richTextBox1.SaveFile(filename, RichTextBoxStreamType.PlainText);
 
@@ -157,6 +159,7 @@ namespace My_editor
             //向上 
             if(is_up)
             {   
+                // 此处反转一下 0 为终点，position 为起点
                 position = richTextBox1.Find(find_string, 0, position, RichTextBoxFinds.Reverse);
 
                 //找不到
@@ -234,6 +237,7 @@ namespace My_editor
         //全部替换 
         public void replace_all(string find_string,string replace_string,bool is_upper_lower)
         {
+            // 此处用 Regex 进行替换，RegexOptions.None 为不忽略大小写，RegexOptions.IgnoreCase 为忽略大小写
             if(is_upper_lower)
                 richTextBox1.Text=Regex.Replace(richTextBox1.Text, find_string, replace_string, RegexOptions.None);
             else
@@ -354,6 +358,7 @@ namespace My_editor
         //获得行列
         private void row_line(object sender, EventArgs e)
         {
+            // richTextBox 对所有内容建立了索引。
             int index = richTextBox1.GetFirstCharIndexOfCurrentLine();
             
             int line = richTextBox1.GetLineFromCharIndex(index) + 1;
@@ -368,6 +373,7 @@ namespace My_editor
         //帮助
         private void toolStripMenuItem24_Click(object sender, EventArgs e)
         {
+            // 浏览器打开链接
             System.Diagnostics.Process.Start("https://blog.csdn.net/welcom_/article/details/84898056");
         }
 
