@@ -1,0 +1,14 @@
+d:\l\source\repos\My_editor\My_editor\bin\Debug\My_editor.exe.config
+d:\l\source\repos\My_editor\My_editor\bin\Debug\My_editor.exe
+d:\l\source\repos\My_editor\My_editor\bin\Debug\My_editor.pdb
+d:\l\source\repos\My_editor\My_editor\obj\Debug\My_editor.csprojAssemblyReference.cache
+d:\l\source\repos\My_editor\My_editor\obj\Debug\My_editor.Form1.resources
+d:\l\source\repos\My_editor\My_editor\obj\Debug\My_editor.Properties.Resources.resources
+d:\l\source\repos\My_editor\My_editor\obj\Debug\My_editor.csproj.GenerateResource.cache
+d:\l\source\repos\My_editor\My_editor\obj\Debug\My_editor.csproj.CoreCompileInputs.cache
+d:\l\source\repos\My_editor\My_editor\obj\Debug\My_editor.exe
+d:\l\source\repos\My_editor\My_editor\obj\Debug\My_editor.pdb
+d:\l\source\repos\My_editor\My_editor\obj\Debug\My_editor.about.resources
+d:\l\source\repos\My_editor\My_editor\obj\Debug\My_editor.find.resources
+d:\l\source\repos\My_editor\My_editor\obj\Debug\My_editor.replace.resources
+d:\l\source\repos\My_editor\My_editor\obj\Debug\My_editor.turn.resources
